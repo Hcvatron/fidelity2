@@ -1,0 +1,114 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f0fdf4, #d1fae5);
+  overflow: hidden;
+}
+
+.text-content h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+.text-content .highlight {
+  color: #10b981;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.text-content form label {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  display: inline-block;
+  color: #4b5563;
+}
+
+.text-content form select {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.text-content form select:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.5);
+}
+
+.text-content button {
+  background-color: #10b981;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.text-content button:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+/* Image Content */
+.image-content img {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-content img:hover {
+  transform: scale(1.05);
+}
+
+.image-content .bg-circle {
+  background-color: #10b981;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Background Shapes */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -30%;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.4) 0%, transparent 70%);
+  z-index: 0;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #10b981;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #059669;
+  transform: scale(1.1);
+}

@@ -1,0 +1,56 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(to right, #2563eb, #10b981);  */
+  padding: 16px 24px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  /* color: black; */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  color: white;
+  background: linear-gradient(to right, #1e40af, #059669); 
+}
+
+/* Logo */
+.logo .highlight {
+  color: #10b981; 
+  font-weight: bold;
+}
+
+/* Center Text */
+.center-text {
+  font-size: 1.1rem;
+  /* color: #ffffff; */
+  font-weight: 500;
+}
+
+/* Call Button */
+.call-button {
+  display: flex;
+  align-items: center;
+  background-color: #10b981;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.call-button:hover {
+  background-color: #2563eb; 
+  transform: scale(1.05);
+}
+
+.call-button img {
+  margin-right: 8px;
+}

@@ -1,0 +1,77 @@
+/* Services Section */
+.services-section {
+  padding: 5rem 1rem;
+  background-color: #f8f9fc; /* Light Gray Background */
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a202c; /* Dark Gray */
+  margin-bottom: 1rem;
+}
+
+.services-section p {
+  font-size: 1.1rem;
+  color: #4b5563; /* Medium Gray */
+  margin-bottom: 2rem;
+}
+
+/* Service Card */
+.service-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  color: #2563eb; /* Blue */
+  margin-top: 0.5rem;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #4b5563; 
+  margin-top: 0.5rem;
+}
+
+/* Icon Wrapper */
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(to right, #2563eb, #10b981); 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.icon-wrapper svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Gradient Overlay */
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #2563eb, #10b981);
+  opacity: 0.05;
+  z-index: -1;
+  border-radius: 12px;
+}
+
+.service-card:hover::before {
+  opacity: 0.15;
+}

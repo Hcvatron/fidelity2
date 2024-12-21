@@ -1,0 +1,17 @@
+.disclaimer-section {
+    background-color: #2d3748; /* Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 1rem 2rem; /* Spacing */
+    font-size: 0.875rem; /* Smaller font size */
+    text-align: center;
+  }
+  
+  .disclaimer-section p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .disclaimer-section strong {
+    font-weight: 700;
+  }
+  

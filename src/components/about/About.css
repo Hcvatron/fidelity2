@@ -1,0 +1,47 @@
+/* About Section */
+.about-section {
+  background: linear-gradient(to right, #f0f4f8, #ffffff); 
+  padding: 5rem 1rem;
+  color: #1a202c;
+}
+
+/* Image Styling */
+.image-container img {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Text Container */
+.text-container h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a202c; 
+  margin-bottom: 1.5rem;
+}
+
+.text-container p {
+  font-size: 1.1rem;
+  color: #4b5563; 
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.text-container button {
+  background: linear-gradient(to right, #2563eb, #10b981); 
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-container button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
