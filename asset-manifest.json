@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Hcvatron/fidelity2.git/static/css/main.9607bdf0.css",
-    "main.js": "/Hcvatron/fidelity2.git/static/js/main.5f558c46.js",
-    "static/media/Forbes.png": "/Hcvatron/fidelity2.git/static/media/Forbes.632b259d26257dbe8790.png",
-    "static/media/fa.png": "/Hcvatron/fidelity2.git/static/media/fa.e19f380927a5376f1839.png",
-    "static/media/fox.png": "/Hcvatron/fidelity2.git/static/media/fox.146a8cbf9007c5ab3080.png",
-    "static/media/bloomberg.png": "/Hcvatron/fidelity2.git/static/media/bloomberg.57d748948fcadf768b59.png",
-    "index.html": "/Hcvatron/fidelity2.git/index.html",
-    "main.9607bdf0.css.map": "/Hcvatron/fidelity2.git/static/css/main.9607bdf0.css.map",
-    "main.5f558c46.js.map": "/Hcvatron/fidelity2.git/static/js/main.5f558c46.js.map"
+    "main.css": "/fidelity2/static/css/main.9607bdf0.css",
+    "main.js": "/fidelity2/static/js/main.8133955e.js",
+    "static/media/Forbes.png": "/fidelity2/static/media/Forbes.632b259d26257dbe8790.png",
+    "static/media/fa.png": "/fidelity2/static/media/fa.e19f380927a5376f1839.png",
+    "static/media/fox.png": "/fidelity2/static/media/fox.146a8cbf9007c5ab3080.png",
+    "static/media/bloomberg.png": "/fidelity2/static/media/bloomberg.57d748948fcadf768b59.png",
+    "index.html": "/fidelity2/index.html",
+    "main.9607bdf0.css.map": "/fidelity2/static/css/main.9607bdf0.css.map",
+    "main.8133955e.js.map": "/fidelity2/static/js/main.8133955e.js.map"
   },
   "entrypoints": [
     "static/css/main.9607bdf0.css",
-    "static/js/main.5f558c46.js"
+    "static/js/main.8133955e.js"
   ]
 }
