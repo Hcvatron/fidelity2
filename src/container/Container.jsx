@@ -3,10 +3,7 @@ import { HashRouter as Router, Route, Routes, useLocation } from "react-router-d
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/nav/Navbar";
 import Hero from "../components/hero/Hero";
-import Services from "../components/services/Services";
-import About from "../components/about/About";
-import Contact from "../components/contact/Contact";
-import Disclaimer from "../components/disclaimer/Disclaimer";
+
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -42,10 +39,7 @@ const Container = () => {
       <MainContent>
         <Routes>
           <Route exact path="/" element={<Hero />} />
-          <Route exact path="/disclaimer" element={<Disclaimer />} />
-          {/* <Route exact path="/services" element={<Services />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} /> */}
+          <Route path="*" element={<Hero />} />
         </Routes>
       </MainContent>
       <Footer />
