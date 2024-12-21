@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/fidelity2/static/css/main.9607bdf0.css",
-    "main.js": "/fidelity2/static/js/main.8133955e.js",
+    "main.css": "/fidelity2/static/css/main.f73c6a5c.css",
+    "main.js": "/fidelity2/static/js/main.5419f685.js",
     "static/media/Forbes.png": "/fidelity2/static/media/Forbes.632b259d26257dbe8790.png",
     "static/media/fa.png": "/fidelity2/static/media/fa.e19f380927a5376f1839.png",
     "static/media/fox.png": "/fidelity2/static/media/fox.146a8cbf9007c5ab3080.png",
     "static/media/bloomberg.png": "/fidelity2/static/media/bloomberg.57d748948fcadf768b59.png",
     "index.html": "/fidelity2/index.html",
-    "main.9607bdf0.css.map": "/fidelity2/static/css/main.9607bdf0.css.map",
-    "main.8133955e.js.map": "/fidelity2/static/js/main.8133955e.js.map"
+    "main.f73c6a5c.css.map": "/fidelity2/static/css/main.f73c6a5c.css.map",
+    "main.5419f685.js.map": "/fidelity2/static/js/main.5419f685.js.map"
   },
   "entrypoints": [
-    "static/css/main.9607bdf0.css",
-    "static/js/main.8133955e.js"
+    "static/css/main.f73c6a5c.css",
+    "static/js/main.5419f685.js"
   ]
 }
