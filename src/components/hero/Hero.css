@@ -6,6 +6,10 @@
   overflow: hidden;
 }
 
+.hero-sectionmain{
+  margin-top: 6rem;
+}
+
 .text-content h1 {
   font-size: 2.8rem;
   line-height: 1.2;
@@ -111,4 +115,15 @@
 .scroll-to-top:hover {
   background-color: #059669;
   transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+
+  .hero-section{
+    background: linear-gradient(to bottom right, #f0fdf4, #f0fdf4);
+  }
+
+  .hero-sectionmain{
+    margin-top: 4rem;
+  }
 }
